@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Kobo.Test.Services.PersonService" CodeBehind="PersonService.svc.cs" %>

@@ -1,0 +1,76 @@
+﻿@model Kobo.Test.MvcApplication.Models.PersonModel
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create Person</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Person</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FirstName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FirstName)
+            @Html.ValidationMessageFor(model => model.FirstName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LastName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LastName)
+            @Html.ValidationMessageFor(model => model.LastName)
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Customer</legend>
+         <div class="editor-label">
+            @Html.LabelFor(model => model.CustomerModel.Birthday)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CustomerModel.Birthday)
+            @Html.ValidationMessageFor(model => model.CustomerModel.Birthday)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CustomerModel.Email)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CustomerModel.Email)
+            @Html.ValidationMessageFor(model => model.CustomerModel.Email)
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Supplier</legend>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SupplierModel.ContactManager)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SupplierModel.ContactManager)
+            @Html.ValidationMessageFor(model => model.SupplierModel.ContactManager)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.SupplierModel.Telephone)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.SupplierModel.Telephone)
+            @Html.ValidationMessageFor(model => model.SupplierModel.Telephone)
+        </div>
+    </fieldset>
+    <p>
+        <input type="submit" value="Create" />
+    </p>
+
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

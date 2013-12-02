@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kobo.Test.DataAccess", "Kobo.Test.DataAccess\Kobo.Test.DataAccess.csproj", "{B8B1D603-D80E-4813-BE5D-8485FA5AB0EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kobo.Test.Contracts", "Kobo.Test.Contracts\Kobo.Test.Contracts.csproj", "{A2093474-2096-4BBC-970E-B025C0078298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kobo.Test.Entities", "Kobo.Test.Entities\Kobo.Test.Entities.csproj", "{C31C777D-8149-4AF1-B5BB-92F4A009C8C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kobo.Test.EntityDataMappers", "Kobo.Test.EntityDataMappers\Kobo.Test.EntityDataMappers.csproj", "{A4A156B9-9C1A-4A1C-87CC-D753E32F39BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kobo.Test.DataContracts", "Kobo.Test.DataContracts\Kobo.Test.DataContracts.csproj", "{D4B13226-518C-4794-A322-A036CC9D71C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kobo.Test.EntityDataMappers.Test", "Kobo.Test.EntityDataMappers.Test\Kobo.Test.EntityDataMappers.Test.csproj", "{4C9AB3AE-5092-4E80-995A-7C813DA7D1B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kobo.Test.DataAccess.Test", "Kobo.Test.DataAccess.Test\Kobo.Test.DataAccess.Test.csproj", "{11ED868E-BC86-40F2-86C8-C323E88D2983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kobo.Test.BusinessLogic", "Kobo.Test.BusinessLogic\Kobo.Test.BusinessLogic.csproj", "{9E291F48-1D42-4A68-99D2-2ED9F73244CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kobo.Test.BusinessLogic.Test", "Kobo.Test.BusinessLogic.Test\Kobo.Test.BusinessLogic.Test.csproj", "{0A784AEF-997D-4404-B0DC-DAE3C7B52F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kobo.Test.Services", "Kobo.Test.Services\Kobo.Test.Services.csproj", "{3998DE33-9B94-4617-B45B-3CA1299A4B7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kobo.Test.ServicesTest", "Kobo.Test.ServicesTest\Kobo.Test.ServicesTest.csproj", "{580253DC-7CEB-4A79-BF5D-E3D84D14D117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kobo.Test.MvcApplication", "Kobo.Test.MvcApplication\Kobo.Test.MvcApplication.csproj", "{367706EB-F5A9-41BE-BE99-C6F2CE12A4F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3998DE33-9B94-4617-B45B-3CA1299A4B7F} = {3998DE33-9B94-4617-B45B-3CA1299A4B7F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kobo.Test.MvcApplication.Tests", "Kobo.Test.MvcApplication.Tests\Kobo.Test.MvcApplication.Tests.csproj", "{949DC0C0-8556-4332-8A3B-02DE2AED2FCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B1D603-D80E-4813-BE5D-8485FA5AB0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B1D603-D80E-4813-BE5D-8485FA5AB0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B1D603-D80E-4813-BE5D-8485FA5AB0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B1D603-D80E-4813-BE5D-8485FA5AB0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2093474-2096-4BBC-970E-B025C0078298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2093474-2096-4BBC-970E-B025C0078298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2093474-2096-4BBC-970E-B025C0078298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2093474-2096-4BBC-970E-B025C0078298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31C777D-8149-4AF1-B5BB-92F4A009C8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31C777D-8149-4AF1-B5BB-92F4A009C8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31C777D-8149-4AF1-B5BB-92F4A009C8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31C777D-8149-4AF1-B5BB-92F4A009C8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4A156B9-9C1A-4A1C-87CC-D753E32F39BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A156B9-9C1A-4A1C-87CC-D753E32F39BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A156B9-9C1A-4A1C-87CC-D753E32F39BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A156B9-9C1A-4A1C-87CC-D753E32F39BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B13226-518C-4794-A322-A036CC9D71C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B13226-518C-4794-A322-A036CC9D71C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B13226-518C-4794-A322-A036CC9D71C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B13226-518C-4794-A322-A036CC9D71C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9AB3AE-5092-4E80-995A-7C813DA7D1B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9AB3AE-5092-4E80-995A-7C813DA7D1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9AB3AE-5092-4E80-995A-7C813DA7D1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9AB3AE-5092-4E80-995A-7C813DA7D1B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11ED868E-BC86-40F2-86C8-C323E88D2983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11ED868E-BC86-40F2-86C8-C323E88D2983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11ED868E-BC86-40F2-86C8-C323E88D2983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11ED868E-BC86-40F2-86C8-C323E88D2983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E291F48-1D42-4A68-99D2-2ED9F73244CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E291F48-1D42-4A68-99D2-2ED9F73244CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E291F48-1D42-4A68-99D2-2ED9F73244CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E291F48-1D42-4A68-99D2-2ED9F73244CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A784AEF-997D-4404-B0DC-DAE3C7B52F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A784AEF-997D-4404-B0DC-DAE3C7B52F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A784AEF-997D-4404-B0DC-DAE3C7B52F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A784AEF-997D-4404-B0DC-DAE3C7B52F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3998DE33-9B94-4617-B45B-3CA1299A4B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3998DE33-9B94-4617-B45B-3CA1299A4B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3998DE33-9B94-4617-B45B-3CA1299A4B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3998DE33-9B94-4617-B45B-3CA1299A4B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580253DC-7CEB-4A79-BF5D-E3D84D14D117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580253DC-7CEB-4A79-BF5D-E3D84D14D117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580253DC-7CEB-4A79-BF5D-E3D84D14D117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580253DC-7CEB-4A79-BF5D-E3D84D14D117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{367706EB-F5A9-41BE-BE99-C6F2CE12A4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367706EB-F5A9-41BE-BE99-C6F2CE12A4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367706EB-F5A9-41BE-BE99-C6F2CE12A4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367706EB-F5A9-41BE-BE99-C6F2CE12A4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949DC0C0-8556-4332-8A3B-02DE2AED2FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949DC0C0-8556-4332-8A3B-02DE2AED2FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949DC0C0-8556-4332-8A3B-02DE2AED2FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949DC0C0-8556-4332-8A3B-02DE2AED2FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
